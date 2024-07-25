@@ -6,7 +6,7 @@ import DashboardLayout from './layouts/dashboard/DashboardLayout';
 const PrivateRoute = () => {
   const { userInformation } = useSelector((state) => state.auth);
 
-  return userInformation ? <DashboardLayout /> : <Navigate to="/login" replace />;
+  return userInformation.token ? <DashboardLayout /> : <Navigate to="/login" replace />;
 };
 
 export default PrivateRoute;

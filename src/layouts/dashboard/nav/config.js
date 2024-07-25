@@ -11,11 +11,11 @@ const navConfig = [
     path: '/dashboard/app',
     icon: icon('ic_analytics'),
   },
-  {
-    title: 'History',
-    path: '/dashboard/history',
-    icon: icon('ic_prediction'),
-  },
+  // {
+  //   title: 'History',
+  //   path: '/dashboard/history',
+  //   icon: icon('ic_prediction'),
+  // },
 ];
 
 export default navConfig;
